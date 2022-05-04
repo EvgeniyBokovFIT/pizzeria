@@ -1,0 +1,171 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.arial{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header{
+    background-size: 28px;
+    align-items: center;
+    justify-content: center;
+
+    font-family: IBM Plex Serif;
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.logomain{
+    justify-content: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.fon{
+    background-color: rgb(246,246,246);
+}
+
+.fon_header{
+    background-color: rgb(244,192,93);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px;
+}
+
+.fon_window{
+    padding: 2px;
+    border: 2px rgb(237,237,237);
+    background-color: rgb(237,237,237);
+}
+
+.fon_window_center{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.indent{
+    background-color: rgb(246,246,246);
+    padding: 20px;
+}
+
+.container_inner{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    padding-top: 20px;
+}
+
+
+.font_inner{
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+}
+
+.field_inner{
+    border: 2px rgb(246,241,231);
+    background-color: rgb(246,241,231);
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button_in{
+
+    border: 2px rgb(244,192,93);
+    background-color: rgb(244,192,93);
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button_in2{
+    color: rgb(0, 0, 0);
+    border: 2px rgb(244,192,93);
+    background-color: rgb(244,192,93);
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 39px;
+    padding-right: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button_in3{
+    color: rgb(0, 0, 0);
+    border: 2px rgb(244,192,93);
+    background-color: rgb(244,192,93);
+    font-family: Ubuntu;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.no_acc{
+    font-size: 14px;
+    text-align: center;
+    color: rgb(121,121,121);
+    padding-top: 30px;
+}
